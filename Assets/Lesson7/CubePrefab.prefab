@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7588823612253231139}
   - component: {fileID: 7588823612253231136}
   - component: {fileID: -4029124612030680125}
-  - component: {fileID: -4536337809154738016}
+  - component: {fileID: -6757746260744717484}
   m_Layer: 0
   m_Name: CubePrefab
   m_TagString: Cube
@@ -157,7 +157,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b0ae7f71954f20f4f866a00f83fde5a2, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -242,7 +242,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-4536337809154738016
+--- !u!114 &-6757746260744717484
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

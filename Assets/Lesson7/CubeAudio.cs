@@ -4,26 +4,24 @@ using UnityEngine;
 
 public class CubeAudio : MonoBehaviour
 {
-	
-	private AudioSource audio;
-	private AudioClip sound;
+	private AudioSource audioSource;
 
-	
+
 	void Start()
 	{
-		
-		audio = gameObject.AddComponent<AudioSource>();
+		audioSource = GetComponent<AudioSource>();
 
 	}
 
 	
-	void OnCollisionEnter(Collision collision)
+	void OnCollisionEnter2D(Collision2D other)
 	{
 	
-		if (collision.gameObject.tag == "Cube" || collision.gameObject.tag == "ground")
+		
 		{
-			
-			audio.PlayOneShot(sound);
+
+			audioSource.Play();
 		}
 	}
 }
+
