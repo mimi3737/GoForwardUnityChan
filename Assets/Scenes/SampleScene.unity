@@ -199,7 +199,7 @@ GameObject:
   m_Component:
   - component: {fileID: 248409263}
   - component: {fileID: 248409262}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CubeGenerator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,6 +243,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 3}
       propertyPath: m_Name
       value: UnityChan2D
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 3}
       propertyPath: m_RootOrder
@@ -297,8 +305,16 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6100000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 3}
       propertyPath: m_Offset.y
       value: -0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 3}
       propertyPath: m_SortingOrder

@@ -11,16 +11,31 @@ public class CubeAudio : MonoBehaviour
 	{
 		audioSource = GetComponent<AudioSource>();
 
+		
+
+
 	}
 
+	void Update()
+	{
+
 	
+
+	}
 	void OnCollisionEnter2D(Collision2D other)
 	{
-	
-		
+
+		if (other.gameObject.name == "UnityChan2D")
 		{
 
+			audioSource.volume = 0f;
+
+
+		}
+		else
+		{
 			audioSource.Play();
+			
 		}
 	}
 }
